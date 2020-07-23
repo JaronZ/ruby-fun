@@ -1,6 +1,6 @@
 # Changelog
 # 1.2.1
-Bug Fixes
+Bug Fixes\n
 Tools and armor are repairable with ruby's again
 
 # 1.2.0
