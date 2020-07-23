@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "rubyfun:ruby_pickaxe"
+      },
+      "title": {
+        "translate": "advancements.rubypickaxeadvancement.title"
+      },
+      "description": {
+        "translate": "advancements.rubypickaxeadvancement.descr"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "rubypickaxeadvancement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "rubyfun:ruby_pickaxe",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 5
+    },
+    "parent": "rubyfun:rubyadvancement"
+  }

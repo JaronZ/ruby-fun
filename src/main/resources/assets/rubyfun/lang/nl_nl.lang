@@ -1,0 +1,47 @@
+// Items
+item.ruby.name=Robijn
+
+// Blocks
+tile.ruby_block.name=Robijn blok
+tile.ruby_ore.name=Robijn Erts
+
+// Tools
+item.ruby_sword.name=Robijnen Zwaard
+item.ruby_pickaxe.name=Robijnen Pikhouweel
+item.ruby_axe.name=Robijnen Bijl
+item.ruby_shovel.name=Robijnen Schep
+item.ruby_hoe.name=Robijnen Schoffel
+
+// Armor
+item.ruby_helmet.name=Robijnen Helm
+item.ruby_chestplate.name=Robijnen Borstplaat
+item.ruby_leggings.name=Robijnen Beenstukken
+item.ruby_boots.name=Robijnen Laarzen
+
+// Food
+// none for now
+
+// Advancements
+// Main Advancement
+advancements.rubyadvancementmain.title=Ruby Fun
+advancements.rubyadvancementmain.descr=Bedankt voor het downloaden van Ruby Fun!
+
+// Ruby Advancement
+advancements.rubyadvancement.title=Robijnen Krijgen
+advancements.rubyadvancement.descr=Krijg een of meer robijnen
+
+// Ruby Armor Advancement
+advancements.rubyarmoradvancement.title=Een Sterk Harnas
+advancements.rubyarmoradvancement.descr=Krijg een stuk robijnen harnas
+
+// Ruby Pickaxe Advancement
+advancements.rubypickaxeadvancement.title=Een Geweldige Pikhouweel
+advancements.rubypickaxeadvancement.descr=Krijg een robijnen pikhouweel
+
+// Ruby Sword Advancement
+advancements.rubyswordadvancement.title=Een Sterk Zwaard
+advancements.rubyswordadvancement.descr=Krijg een robijnen zwaard
+
+// Config
+config.rubyfun.sleepruby=Slaap Robijnen
+config.rubyfun.sleepruby.tooltip=Zet aan of uit dat je een kans hebt om robijnen te krijgen na het slapen

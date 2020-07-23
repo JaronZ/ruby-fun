@@ -1,2 +1,2 @@
-# ruby-fun
-The repository of Ruby Fun. A minecraft mod that adds ruby's to your game
+# Ruby Fun
+Source code of the "ruby fun" minecraft mod. A mod that adds ruby's to your game

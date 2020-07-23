@@ -1,0 +1,26 @@
+{
+    "display": {
+      "background": "rubyfun:textures/blocks/ruby_block.png",
+      "icon": {
+        "item": "rubyfun:ruby"
+      },
+      "title": {
+        "translate": "advancements.rubyadvancementmain.title"
+      },
+      "description": {
+        "translate": "advancements.rubyadvancementmain.descr"
+      },
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "rubyadvancementmain": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "experience": 0
+    }
+}

@@ -1,0 +1,46 @@
+// Items
+item.ruby.name=Ruby
+
+// Blocks
+tile.ruby_block.name=Ruby Block
+tile.ruby_ore.name=Ruby Ore
+
+// Tools
+item.ruby_sword.name=Ruby Sword
+item.ruby_pickaxe.name=Ruby Pickaxe
+item.ruby_axe.name=Ruby Axe
+item.ruby_shovel.name=Ruby Shovel
+item.ruby_hoe.name=Ruby Hoe
+
+// Armor
+item.ruby_helmet.name=Ruby Helmet
+item.ruby_chestplate.name=Ruby Chestplate
+item.ruby_leggings.name=Ruby Leggings
+item.ruby_boots.name=Ruby Boots
+
+// Food
+// none for now
+
+// Creative Tabs
+itemGroup.RUBY_FUN=Ruby Fun
+
+// Advancements
+// Main Advancement
+advancements.rubyadvancementmain.title=Ruby Fun
+advancements.rubyadvancementmain.descr=Thank you for downloading Ruby Fun!
+
+// Ruby Advancement
+advancements.rubyadvancement.title=Getting Ruby's
+advancements.rubyadvancement.descr=Get one or more ruby's
+
+// Ruby Armor Advancement
+advancements.rubyarmoradvancement.title=Strong Armor
+advancements.rubyarmoradvancement.descr=Get a piece of ruby armor
+
+// Ruby Pickaxe Advancement
+advancements.rubypickaxeadvancement.title=A Great Pickaxe
+advancements.rubypickaxeadvancement.descr=Get a ruby pickaxe
+
+// Ruby Sword Advancement
+advancements.rubyswordadvancement.title=A strong Sword
+advancements.rubyswordadvancement.descr=Get a ruby sword

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern": 
+    [
+        "RRR",
+        "RDR",
+        "RRR"
+    ],
+
+    "key":
+    {
+        "R":
+        {
+            "item": "rubyfun:ruby"
+        },
+        "D":
+        {
+            "item": "minecraft:diamond_helmet"
+        }
+    },
+
+    "result":
+    {
+        "item": "rubyfun:ruby_helmet",
+        "count": 1
+    }
+}

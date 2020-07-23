@@ -1,0 +1,82 @@
+{
+    "display": {
+      "icon": {
+        "item": "rubyfun:ruby_chestplate"
+      },
+      "title": {
+        "translate": "advancements.rubyarmoradvancement.title"
+      },
+      "description": {
+        "translate": "advancements.rubyarmoradvancement.descr"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "rubyarmoradvancementhelmet": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "rubyfun:ruby_helmet",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      },
+      "rubyarmoradvancementchestplate": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "rubyfun:ruby_chestplate",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      },
+      "rubyarmoradvancementleggings": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "rubyfun:ruby_leggings",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      },
+      "rubyarmoradvancementboots": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "rubyfun:ruby_boots",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      ["rubyarmoradvancementhelmet", "rubyarmoradvancementchestplate", "rubyarmoradvancementleggings", "rubyarmoradvancementboots"]
+    ],
+    "rewards": {
+      "experience": 1
+    },
+    "parent": "rubyfun:rubyadvancement"
+  }
