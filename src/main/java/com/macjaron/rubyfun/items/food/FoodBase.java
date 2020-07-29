@@ -1,6 +1,6 @@
 package com.macjaron.rubyfun.items.food;
 
-import com.macjaron.rubyfun.Main;
+import com.macjaron.rubyfun.RubyFun;
 import com.macjaron.rubyfun.init.ModItems;
 import com.macjaron.rubyfun.util.IHasModel;
 
@@ -21,6 +21,6 @@ public class FoodBase extends ItemFood implements IHasModel {
 
     @Override
     public void registerModels(){
-        Main.proxy.registerItemRenderer(this, 0, "inventory");
+        RubyFun.proxy.registerItemRenderer(this, 0, "inventory");
     }
 }

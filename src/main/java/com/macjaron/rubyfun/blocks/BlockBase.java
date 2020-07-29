@@ -1,6 +1,6 @@
 package com.macjaron.rubyfun.blocks;
 
-import com.macjaron.rubyfun.Main;
+import com.macjaron.rubyfun.RubyFun;
 import com.macjaron.rubyfun.init.ModBlocks;
 import com.macjaron.rubyfun.init.ModItems;
 import com.macjaron.rubyfun.util.IHasModel;
@@ -23,6 +23,6 @@ public class BlockBase extends Block implements IHasModel {
 
     @Override
     public void registerModels() {
-        Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
+        RubyFun.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
     }
 }

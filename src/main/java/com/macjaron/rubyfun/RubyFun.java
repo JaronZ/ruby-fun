@@ -18,9 +18,9 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
-public class Main {
+public class RubyFun {
      @Instance(Reference.MOD_ID)
-     public static Main instance;
+     public static RubyFun instance;
      public static RFEventHandler eventHandler = new RFEventHandler(); 
 
      @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
@@ -42,6 +42,6 @@ public class Main {
      @EventHandler
      public static void Postinit(FMLPostInitializationEvent event)
      {
-          MinecraftForge.EVENT_BUS.register(Main.eventHandler);
+          MinecraftForge.EVENT_BUS.register(RubyFun.eventHandler);
      }
 }
